@@ -1,0 +1,6 @@
+- name: Upload coverage reports to Codecov
+  uses: codecov/codecov-action"v7
+  with:
+    token: ${{5f8ec8b1-51ef-4739-84b6-48cbe145690f}}
+    fial_ci_if_error: true
+    files: coverage.xml
