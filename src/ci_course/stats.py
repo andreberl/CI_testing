@@ -37,7 +37,7 @@ def summarise(values):
         "max": float(np.max(present)),
     }
 
-
+"""Tells of the values that be missing"""
 def count_missing(values):
     values = np.asarray(values, dtype=float)
     return int(np.isnan(values).sum())
