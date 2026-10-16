@@ -1,6 +1,7 @@
 """Command line interface for the package."""
 
 import argparse
+import numpy
 
 from .io import load_measurements
 from .report import format_report, write_report
