@@ -39,7 +39,7 @@ def summarise(values):
 
 
 def count_missing(values):
-    """    
+    """
     Count the missing values in a column of measurements.
 
     Parameters
